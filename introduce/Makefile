@@ -12,6 +12,8 @@ tag: tag.cpp
 	$(MP) $(FLAG) -o $@.o $<
 tag_1: tag_1.cpp
 	$(MP) $(FLAG) -o $@.o $<
+status: status.cpp
+	$(MP) $(FLAG) -o $@.o $<
 
 
 .PHONY: clean
