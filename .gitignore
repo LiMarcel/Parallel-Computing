@@ -1,2 +1,5 @@
 # 可执行文件
 *.o
+
+# Makefile
+Makefile
