@@ -1,0 +1,8 @@
+MP = mpicxx
+FLAG = -g
+cpi: cpi.cpp
+	$(MP) $(FLAG) -o $@.o $<
+
+.PHONY: clean
+clean: 
+	rm -f *.o
